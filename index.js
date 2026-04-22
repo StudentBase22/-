@@ -45,6 +45,7 @@ class QuizApp {
     constructor() {
         this.currentIdx = 0;
         this.score = 0;
+        this.userAnswers = [];
         this.initElements();
     }
 
@@ -60,11 +61,13 @@ class QuizApp {
         this.currentNum = document.getElementById('current-num');
         this.sectionLabel = document.getElementById('section-label');
         this.finalScore = document.getElementById('final-score');
+        this.reviewContainer = document.getElementById('review-container');
     }
 
     start() {
         this.currentIdx = 0;
         this.score = 0;
+        this.userAnswers = [];
         this.showScreen('quiz');
         this.renderQuestion();
     }
@@ -100,6 +103,7 @@ class QuizApp {
     }
 
     handleAnswer(selectedIdx) {
+        this.userAnswers.push(selectedIdx);
         if (selectedIdx === questions[this.currentIdx].answer) {
             this.score++;
         }
@@ -132,6 +136,31 @@ class QuizApp {
             feedback.innerText = "حاول مرة أخرى";
             sub.innerText = "تحتاج لمراجعة المفاهيم الأساسية لتحسين نتيجتك.";
         }
+
+        this.renderReview();
+    }
+
+    renderReview() {
+        this.reviewContainer.innerHTML = '<h3 style="margin: 2rem 0 1.5rem; color: var(--primary);">مراجعة الإجابات</h3>';
+        
+        questions.forEach((q, i) => {
+            const userIdx = this.userAnswers[i];
+            const correctIdx = q.answer;
+            const isCorrect = userIdx === correctIdx;
+
+            const reviewItem = document.createElement('div');
+            reviewItem.className = `review-item ${isCorrect ? 'correct' : 'wrong'}`;
+            reviewItem.innerHTML = `
+                <div class="review-q">${i + 1}. ${q.q}</div>
+                <div class="review-ans">
+                    <div style="color: ${isCorrect ? 'var(--success)' : 'var(--danger)'}">
+                        إجابتك: ${q.options[userIdx]} ${isCorrect ? '✅' : '❌'}
+                    </div>
+                    ${!isCorrect ? `<div style="color: var(--success); margin-top: 4px;">الإجابة الصحيحة: ${q.options[correctIdx]}</div>` : ''}
+                </div>
+            `;
+            this.reviewContainer.appendChild(reviewItem);
+        });
     }
 
     restart() {
