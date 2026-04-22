@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Temporary files
+temp_pptx/
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo

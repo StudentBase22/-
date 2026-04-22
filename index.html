@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار الإدارة والابتكار الشامل</title>
+    <meta name="description" content="اختبار تفاعلي في مبادئ الإدارة، الابتكار، وريادة الأعمال">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Start Screen -->
+        <div id="start-screen" class="card fade-in">
+            <div class="header">
+                <h1>اختبار الإدارة والابتكار</h1>
+                <p style="color: var(--text-muted)">استعد لاختبار معلوماتك في 40 سؤالاً شاملاً</p>
+            </div>
+            <div style="text-align: center;">
+                <div class="topics-grid" style="margin-bottom: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: right; font-size: 0.9rem;">
+                    <div class="topic-item">✅ الإدارة ووظائفها</div>
+                    <div class="topic-item">✅ الابتكار والإبداع</div>
+                    <div class="topic-item">✅ ريادة الأعمال</div>
+                    <div class="topic-item">✅ دورة حياة المنتج</div>
+                    <div class="topic-item">✅ التحليل الاستراتيجي</div>
+                    <div class="topic-item">✅ الميزة التنافسية</div>
+                </div>
+                <button class="restart-btn" onclick="quiz.start()">ابدأ الاختبار</button>
+            </div>
+            <div class="footer-sig">إعداد: رشا العمري</div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="card fade-in" style="display: none;">
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <div id="section-label" class="section-label">القسم الأول</div>
+            <div id="question-text" class="question-text"></div>
+            <div id="options-grid" class="options-grid"></div>
+            <div class="quiz-footer">
+                <div id="counter">
+                    سؤال <span id="current-num">1</span> من 40
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="card fade-in" style="display: none;">
+            <div class="header">
+                <h1>نتيجة الاختبار</h1>
+            </div>
+            <div class="result-card">
+                <div class="score-circle">
+                    <span id="final-score" class="score-value">0</span>
+                    <span class="score-total">من 40</span>
+                </div>
+                <h2 id="feedback-text" style="margin-bottom: 1rem;">أحسنت!</h2>
+                <p id="feedback-sub" style="color: var(--text-muted); margin-bottom: 2rem;"></p>
+                <button class="restart-btn" onclick="quiz.restart()">أعادة الاختبار</button>
+            </div>
+            <div class="footer-sig">إعداد: رشا العمري</div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
