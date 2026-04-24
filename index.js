@@ -629,7 +629,8 @@ class QuizApp {
 
     setupEventListeners() {
         if (this.accessInput) {
-            this.accessInput.addEventListener('keypress', (e) => {
+            // Using keydown instead of keypress for better cross-browser compatibility
+            this.accessInput.addEventListener('keydown', (e) => {
                 if (e.key === 'Enter') {
                     this.verifyAndStart();
                 }
@@ -771,4 +772,7 @@ class QuizApp {
     }
 }
 
-const quiz = new QuizApp();
+// Ensure the DOM is fully loaded before initializing
+document.addEventListener('DOMContentLoaded', () => {
+    window.quiz = new QuizApp();
+});
