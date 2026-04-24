@@ -1,6 +1,6 @@
 const questions = [
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "Multimedia combines text, audio, video, and animation.",
         "options": [
             "True",
@@ -9,7 +9,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "Multimedia only refers to video content.",
         "options": [
             "True",
@@ -18,7 +18,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "“Media” means the method of communication.",
         "options": [
             "True",
@@ -27,7 +27,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "Vannevar Bush proposed early multimedia ideas in 1945.",
         "options": [
             "True",
@@ -36,7 +36,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "Hypertext allows linking between documents.",
         "options": [
             "True",
@@ -45,7 +45,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "Multimedia is only used in entertainment.",
         "options": [
             "True",
@@ -54,7 +54,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "Sight and hearing are important in multimedia.",
         "options": [
             "True",
@@ -63,7 +63,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Multimedia systems include hardware and software.",
         "options": [
             "True",
@@ -72,7 +72,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Microphones are output devices.",
         "options": [
             "True",
@@ -81,7 +81,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Hard disks are storage devices.",
         "options": [
             "True",
@@ -90,7 +90,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Graphics are made of primitive shapes.",
         "options": [
             "True",
@@ -99,7 +99,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Images are always smaller than graphics in size.",
         "options": [
             "True",
@@ -108,7 +108,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Audio signals are originally analog.",
         "options": [
             "True",
@@ -117,7 +117,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Video is a sequence of frames.",
         "options": [
             "True",
@@ -126,7 +126,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Compression is not needed in multimedia.",
         "options": [
             "True",
@@ -135,7 +135,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Static media is time-dependent.",
         "options": [
             "True",
@@ -144,7 +144,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Continuous media is time-dependent.",
         "options": [
             "True",
@@ -153,7 +153,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "Authoring tools are used to create multimedia applications.",
         "options": [
             "True",
@@ -162,7 +162,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "Timeline-based tools organize data by time.",
         "options": [
             "True",
@@ -171,7 +171,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "Icon-based tools use visual symbols.",
         "options": [
             "True",
@@ -180,7 +180,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "Navigation is not important in multimedia.",
         "options": [
             "True",
@@ -189,7 +189,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "Interactivity allows user control.",
         "options": [
             "True",
@@ -198,7 +198,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "Storyboards are used for planning.",
         "options": [
             "True",
@@ -207,7 +207,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "Linear navigation allows free user choice.",
         "options": [
             "True",
@@ -216,7 +216,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "Multimedia Designer defines content and structure.",
         "options": [
             "True",
@@ -225,7 +225,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "Interface Designer may overlap with Multimedia Designer.",
         "options": [
             "True",
@@ -234,7 +234,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "Audio Specialist works with MIDI and sound.",
         "options": [
             "True",
@@ -243,7 +243,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "Project Manager handles audio recording directly.",
         "options": [
             "True",
@@ -252,7 +252,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "Adaptive systems change based on user input.",
         "options": [
             "True",
@@ -261,7 +261,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "Interpersonal skills are important in multimedia teams.",
         "options": [
             "True",
@@ -270,7 +270,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "Multimedia is best defined as:",
         "options": [
             "Text only",
@@ -281,7 +281,7 @@ const questions = [
         "answer": 2
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "\u0001\rWho proposed the memex idea?",
         "options": [
             "Bill Gates",
@@ -292,7 +292,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "\u0001\rHypertext is:",
         "options": [
             "Audio",
@@ -303,7 +303,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "\u0001\rMultimedia is used in:",
         "options": [
             "Education",
@@ -314,7 +314,7 @@ const questions = [
         "answer": 3
     },
     {
-        "section": "الفصل الأول: مقدمة في الوسائط",
+        "section": "Section 1: Introduction to Multimedia",
         "q": "\u0001\rWhich is part of multimedia?",
         "options": [
             "Audio",
@@ -325,7 +325,7 @@ const questions = [
         "answer": 3
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "Which is a capture device?",
         "options": [
             "Monitor",
@@ -336,7 +336,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "\u0001\rWhich is a storage device?",
         "options": [
             "Keyboard",
@@ -347,7 +347,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "\u0001\rGraphics are built using:",
         "options": [
             "Pixels only",
@@ -358,7 +358,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "\u0001\rImages are usually obtained from:",
         "options": [
             "Scanner/camera",
@@ -369,7 +369,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "\u0001\rCD-quality audio uses:",
         "options": [
             "8-bit",
@@ -380,7 +380,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "\u0001\rVideo consists of:",
         "options": [
             "Audio",
@@ -391,7 +391,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "\u0001\rStatic media includes:",
         "options": [
             "Video",
@@ -402,7 +402,7 @@ const questions = [
         "answer": 2
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "\u0001\rContinuous media includes:",
         "options": [
             "Text",
@@ -413,7 +413,7 @@ const questions = [
         "answer": 2
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "\u0001\rAnalog signals are:",
         "options": [
             "Discrete",
@@ -424,7 +424,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثاني: أنظمة الوسائط والاتصال",
+        "section": "Section 2: Systems & Communication",
         "q": "\u0001\rStreaming means:",
         "options": [
             "Download then play",
@@ -435,7 +435,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "Authoring tools are used to:",
         "options": [
             "Store data",
@@ -446,7 +446,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "\u0001\rTimeline-based tools organize by:",
         "options": [
             "Size",
@@ -457,7 +457,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "\u0001\rIcon-based tools use:",
         "options": [
             "Code",
@@ -468,7 +468,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "\u0001\rLinear navigation means:",
         "options": [
             "Free movement",
@@ -479,7 +479,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "\u0001\rNon-linear navigation allows:",
         "options": [
             "Fixed path",
@@ -490,7 +490,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "\u0001\rStoryboards are used for:",
         "options": [
             "Coding",
@@ -501,7 +501,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الثالث: أدوات التأليف والتصميم",
+        "section": "Section 3: Authoring & Design",
         "q": "\u0001\rInteractivity means:",
         "options": [
             "No control",
@@ -512,7 +512,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "Who prepares the project blueprint?",
         "options": [
             "Writer",
@@ -523,7 +523,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "\u0001\rWho handles sound and MIDI?",
         "options": [
             "Video Specialist",
@@ -534,7 +534,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "\u0001\rWho coordinates video production team?",
         "options": [
             "Audio Specialist",
@@ -545,7 +545,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "\u0001\rAdaptive systems:",
         "options": [
             "Stay fixed",
@@ -556,7 +556,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "\u0001\rMultimedia Producer for web needs:",
         "options": [
             "HTML knowledge",
@@ -567,7 +567,7 @@ const questions = [
         "answer": 0
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "\u0001\rInformation Designers focus on:",
         "options": [
             "Hardware",
@@ -578,7 +578,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "\u0001\rFully interactive systems require:",
         "options": [
             "Budget only",
@@ -589,7 +589,7 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "الفصل الرابع: أدوار فريق العمل",
+        "section": "Section 4: Project Roles",
         "q": "\u0001\rMultimedia team members need:",
         "options": [
             "No skills",
@@ -681,15 +681,7 @@ class QuizApp {
         if (this.sectionLabel) this.sectionLabel.innerText = q.section;
         if (this.questionText) this.questionText.innerText = q.q;
         
-        if (/^[a-zA-Z]/.test(q.q)) {
-            this.questionText.style.direction = 'ltr';
-            this.questionText.style.textAlign = 'left';
-            this.optionsGrid.style.direction = 'ltr';
-        } else {
-            this.questionText.style.direction = 'rtl';
-            this.questionText.style.textAlign = 'right';
-            this.optionsGrid.style.direction = 'rtl';
-        }
+
         
         this.optionsGrid.innerHTML = '';
         const labels = ['A', 'B', 'C', 'D'];
@@ -727,17 +719,17 @@ class QuizApp {
         const percent = (this.score / questions.length) * 100;
 
         if (this.score === questions.length) {
-            feedback.innerText = "أداء مثالي! مذهل";
-            sub.innerText = "لقد حصلت على الدرجة النهائية، أنت خبير حقيقي.";
+            feedback.innerText = "Perfect performance! Amazing";
+            sub.innerText = "You got a perfect score, you are a true expert.";
         } else if (percent >= 80) {
-            feedback.innerText = "أحسنت صنعاً!";
-            sub.innerText = "لديك فهم ممتاز للمادة العلمية.";
+            feedback.innerText = "Well done!";
+            sub.innerText = "You have an excellent understanding of the material.";
         } else if (percent >= 50) {
-            feedback.innerText = "جيد جداً";
-            sub.innerText = "لقد نجحت في الاختبار، استمر في المذاكرة.";
+            feedback.innerText = "Very good";
+            sub.innerText = "You passed the exam, keep studying.";
         } else {
-            feedback.innerText = "حاول مرة أخرى";
-            sub.innerText = "تحتاج لمراجعة المفاهيم الأساسية لتحسين نتيجتك.";
+            feedback.innerText = "Try again";
+            sub.innerText = "You need to review the basic concepts to improve your score.";
         }
 
         this.renderReview();
@@ -745,7 +737,7 @@ class QuizApp {
 
     renderReview() {
         if (this.reviewContainer) {
-            this.reviewContainer.innerHTML = '<h3 style="margin: 2rem 0 1.5rem; color: var(--primary);">مراجعة الإجابات</h3>';
+            this.reviewContainer.innerHTML = '<h3 style="margin: 2rem 0 1.5rem; color: var(--primary);">Review Answers</h3>';
             
             questions.forEach((q, i) => {
                 const userIdx = this.userAnswers[i];
@@ -758,9 +750,9 @@ class QuizApp {
                     '<div class="review-q">' + (i + 1) + '. ' + q.q + '</div>' +
                     '<div class="review-ans">' +
                         '<div style="color: ' + (isCorrect ? 'var(--success)' : 'var(--danger)') + '">' +
-                            'إجابتك: ' + q.options[userIdx] + ' ' + (isCorrect ? '✅' : '❌') +
+                            'Your answer: ' + q.options[userIdx] + ' ' + (isCorrect ? '(Correct)' : '(Wrong)') +
                         '</div>' +
-                        (!isCorrect ? '<div style="color: var(--success); margin-top: 4px;">الإجابة الصحيحة: ' + q.options[correctIdx] + '</div>' : '') +
+                        (!isCorrect ? '<div style="color: var(--success); margin-top: 4px;">Correct answer: ' + q.options[correctIdx] + '</div>' : '') +
                     '</div>';
                 this.reviewContainer.appendChild(reviewItem);
             });

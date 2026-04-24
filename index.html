@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>اختبار أنظمة الوسائط المتعددة الشامل</title>
-    <meta name="description" content="اختبار تفاعلي شامل في أنظمة الوسائط المتعددة">
+    <title>Multimedia Systems Exam</title>
+    <meta name="description" content="Interactive Multimedia Systems Exam">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -12,24 +12,24 @@
         <!-- Start Screen -->
         <div id="start-screen" class="card fade-in">
             <div class="header">
-                <h1>اختبار أنظمة الوسائط المتعددة</h1>
-                <p style="color: var(--text-muted)">استعد لاختبار معلوماتك في 60 سؤالاً شاملاً</p>
+                <h1>Multimedia Systems Exam</h1>
+                <p style="color: var(--text-muted)">Test your knowledge with 60 comprehensive questions</p>
             </div>
             <div style="text-align: center;">
-                <div class="topics-grid" style="margin-bottom: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: right; font-size: 0.9rem;">
-                    <div class="topic-item">✅ مقدمة في الوسائط</div>
-                    <div class="topic-item">✅ أنظمة الاتصال</div>
-                    <div class="topic-item">✅ أدوات التأليف</div>
-                    <div class="topic-item">✅ أدوار فريق العمل</div>
+                <div class="topics-grid" style="margin-bottom: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: left; font-size: 0.9rem;">
+                    <div class="topic-item">Introduction to Multimedia</div>
+                    <div class="topic-item">Systems & Communication</div>
+                    <div class="topic-item">Authoring & Design</div>
+                    <div class="topic-item">Project Roles</div>
                 </div>
                 <div style="margin-top: 2rem; max-width: 300px; margin-left: auto; margin-right: auto;">
-                    <input type="text" id="access-code" placeholder="أدخل رمز الدخول" 
+                    <input type="text" id="access-code" placeholder="Enter Access Code" 
                         style="width: 100%; padding: 0.8rem; border-radius: 12px; border: 1px solid var(--glass-border); background: rgba(255,255,255,0.05); color: white; text-align: center; margin-bottom: 1rem; outline: none; transition: border-color 0.2s;">
-                    <button class="restart-btn" onclick="quiz.verifyAndStart()" style="width: 100%;">ابدأ الاختبار</button>
-                    <p id="error-msg" style="color: var(--danger); font-size: 0.85rem; margin-top: 0.5rem; display: none;">الرمز غير صحيح، حاول مرة أخرى.</p>
+                    <button class="restart-btn" onclick="quiz.verifyAndStart()" style="width: 100%;">Start Exam</button>
+                    <p id="error-msg" style="color: var(--danger); font-size: 0.85rem; margin-top: 0.5rem; display: none;">Invalid code. Please try again.</p>
                 </div>
             </div>
-            <div class="footer-sig">إعداد: رشا العمري</div>
+            <div class="footer-sig">Prepared by: Rasha Alomari</div>
         </div>
 
         <!-- Quiz Screen -->
@@ -37,37 +37,37 @@
             <div class="progress-container">
                 <div id="progress-bar" class="progress-bar"></div>
             </div>
-            <div id="section-label" class="section-label">القسم الأول</div>
+            <div id="section-label" class="section-label">Section 1</div>
             <div id="question-text" class="question-text"></div>
             <div id="options-grid" class="options-grid"></div>
             <div class="quiz-footer">
                 <div id="counter">
-                    سؤال <span id="current-num">1</span> من 60
+                    Question <span id="current-num">1</span> of 60
                 </div>
             </div>
-            <div class="footer-sig" style="margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1rem;">إعداد: رشا العمري</div>
+            <div class="footer-sig" style="margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1rem;">Prepared by: Rasha Alomari</div>
         </div>
 
         <!-- Result Screen -->
         <div id="result-screen" class="card fade-in" style="display: none;">
             <div class="header">
-                <h1>نتيجة الاختبار</h1>
+                <h1>Exam Results</h1>
             </div>
             <div class="result-card">
                 <div class="score-circle">
                     <span id="final-score" class="score-value">0</span>
-                    <span class="score-total">من 60</span>
+                    <span class="score-total">/ 60</span>
                 </div>
-                <h2 id="feedback-text" style="margin-bottom: 1rem;">أحسنت!</h2>
+                <h2 id="feedback-text" style="margin-bottom: 1rem;">Well Done!</h2>
                 <p id="feedback-sub" style="color: var(--text-muted); margin-bottom: 2rem;"></p>
                 
                 <div id="review-container" class="review-container">
                     <!-- Review items will be injected here -->
                 </div>
 
-                <button class="restart-btn" onclick="quiz.restart()">أعادة الاختبار</button>
+                <button class="restart-btn" onclick="quiz.restart()">Restart Exam</button>
             </div>
-            <div class="footer-sig">إعداد: رشا العمري</div>
+            <div class="footer-sig">Prepared by: Rasha Alomari</div>
         </div>
     </div>
 
