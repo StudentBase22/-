@@ -19,7 +19,7 @@ const questions = [
     },
     {
         "section": "Section 1: Introduction to Multimedia",
-        "q": "“Media” means the method of communication.",
+        "q": "Media means the method of communication.",
         "options": [
             "True",
             "False"
@@ -282,7 +282,7 @@ const questions = [
     },
     {
         "section": "Section 1: Introduction to Multimedia",
-        "q": "\u0001\rWho proposed the memex idea?",
+        "q": "Who proposed the memex idea?",
         "options": [
             "Bill Gates",
             "Vannevar Bush",
@@ -293,7 +293,7 @@ const questions = [
     },
     {
         "section": "Section 1: Introduction to Multimedia",
-        "q": "\u0001\rHypertext is:",
+        "q": "Hypertext is:",
         "options": [
             "Audio",
             "Linked text",
@@ -304,7 +304,7 @@ const questions = [
     },
     {
         "section": "Section 1: Introduction to Multimedia",
-        "q": "\u0001\rMultimedia is used in:",
+        "q": "Multimedia is used in:",
         "options": [
             "Education",
             "Healthcare",
@@ -315,7 +315,7 @@ const questions = [
     },
     {
         "section": "Section 1: Introduction to Multimedia",
-        "q": "\u0001\rWhich is part of multimedia?",
+        "q": "Which is part of multimedia?",
         "options": [
             "Audio",
             "Video",
@@ -337,7 +337,7 @@ const questions = [
     },
     {
         "section": "Section 2: Systems & Communication",
-        "q": "\u0001\rWhich is a storage device?",
+        "q": "Which is a storage device?",
         "options": [
             "Keyboard",
             "Hard disk",
@@ -348,7 +348,7 @@ const questions = [
     },
     {
         "section": "Section 2: Systems & Communication",
-        "q": "\u0001\rGraphics are built using:",
+        "q": "Graphics are built using:",
         "options": [
             "Pixels only",
             "Shapes (lines, circles)",
@@ -359,7 +359,7 @@ const questions = [
     },
     {
         "section": "Section 2: Systems & Communication",
-        "q": "\u0001\rImages are usually obtained from:",
+        "q": "Images are usually obtained from:",
         "options": [
             "Scanner/camera",
             "Keyboard",
@@ -370,7 +370,7 @@ const questions = [
     },
     {
         "section": "Section 2: Systems & Communication",
-        "q": "\u0001\rCD-quality audio uses:",
+        "q": "CD-quality audio uses:",
         "options": [
             "8-bit",
             "16-bit, 44.1 KHz",
@@ -381,7 +381,7 @@ const questions = [
     },
     {
         "section": "Section 2: Systems & Communication",
-        "q": "\u0001\rVideo consists of:",
+        "q": "Video consists of:",
         "options": [
             "Audio",
             "Frames",
@@ -392,7 +392,7 @@ const questions = [
     },
     {
         "section": "Section 2: Systems & Communication",
-        "q": "\u0001\rStatic media includes:",
+        "q": "Static media includes:",
         "options": [
             "Video",
             "Audio",
@@ -403,7 +403,7 @@ const questions = [
     },
     {
         "section": "Section 2: Systems & Communication",
-        "q": "\u0001\rContinuous media includes:",
+        "q": "Continuous media includes:",
         "options": [
             "Text",
             "Images",
@@ -414,7 +414,7 @@ const questions = [
     },
     {
         "section": "Section 2: Systems & Communication",
-        "q": "\u0001\rAnalog signals are:",
+        "q": "Analog signals are:",
         "options": [
             "Discrete",
             "Continuous",
@@ -425,7 +425,7 @@ const questions = [
     },
     {
         "section": "Section 2: Systems & Communication",
-        "q": "\u0001\rStreaming means:",
+        "q": "Streaming means:",
         "options": [
             "Download then play",
             "Play while downloading",
@@ -447,7 +447,7 @@ const questions = [
     },
     {
         "section": "Section 3: Authoring & Design",
-        "q": "\u0001\rTimeline-based tools organize by:",
+        "q": "Timeline-based tools organize by:",
         "options": [
             "Size",
             "Time",
@@ -458,7 +458,7 @@ const questions = [
     },
     {
         "section": "Section 3: Authoring & Design",
-        "q": "\u0001\rIcon-based tools use:",
+        "q": "Icon-based tools use:",
         "options": [
             "Code",
             "Icons",
@@ -469,7 +469,7 @@ const questions = [
     },
     {
         "section": "Section 3: Authoring & Design",
-        "q": "\u0001\rLinear navigation means:",
+        "q": "Linear navigation means:",
         "options": [
             "Free movement",
             "Fixed sequence",
@@ -480,7 +480,7 @@ const questions = [
     },
     {
         "section": "Section 3: Authoring & Design",
-        "q": "\u0001\rNon-linear navigation allows:",
+        "q": "Non-linear navigation allows:",
         "options": [
             "Fixed path",
             "User choice",
@@ -491,7 +491,7 @@ const questions = [
     },
     {
         "section": "Section 3: Authoring & Design",
-        "q": "\u0001\rStoryboards are used for:",
+        "q": "Storyboards are used for:",
         "options": [
             "Coding",
             "Planning",
@@ -502,7 +502,7 @@ const questions = [
     },
     {
         "section": "Section 3: Authoring & Design",
-        "q": "\u0001\rInteractivity means:",
+        "q": "Interactivity means:",
         "options": [
             "No control",
             "User control",
@@ -524,7 +524,7 @@ const questions = [
     },
     {
         "section": "Section 4: Project Roles",
-        "q": "\u0001\rWho handles sound and MIDI?",
+        "q": "Who handles sound and MIDI?",
         "options": [
             "Video Specialist",
             "Audio Specialist",
@@ -535,7 +535,7 @@ const questions = [
     },
     {
         "section": "Section 4: Project Roles",
-        "q": "\u0001\rWho coordinates video production team?",
+        "q": "Who coordinates video production team?",
         "options": [
             "Audio Specialist",
             "Video Specialist",
@@ -546,7 +546,7 @@ const questions = [
     },
     {
         "section": "Section 4: Project Roles",
-        "q": "\u0001\rAdaptive systems:",
+        "q": "Adaptive systems:",
         "options": [
             "Stay fixed",
             "Change with user input",
@@ -557,7 +557,7 @@ const questions = [
     },
     {
         "section": "Section 4: Project Roles",
-        "q": "\u0001\rMultimedia Producer for web needs:",
+        "q": "Multimedia Producer for web needs:",
         "options": [
             "HTML knowledge",
             "Drawing skills",
@@ -568,7 +568,7 @@ const questions = [
     },
     {
         "section": "Section 4: Project Roles",
-        "q": "\u0001\rInformation Designers focus on:",
+        "q": "Information Designers focus on:",
         "options": [
             "Hardware",
             "User pathways",
@@ -579,7 +579,7 @@ const questions = [
     },
     {
         "section": "Section 4: Project Roles",
-        "q": "\u0001\rFully interactive systems require:",
+        "q": "Fully interactive systems require:",
         "options": [
             "Budget only",
             "User interaction understanding",
@@ -590,7 +590,7 @@ const questions = [
     },
     {
         "section": "Section 4: Project Roles",
-        "q": "\u0001\rMultimedia team members need:",
+        "q": "Multimedia team members need:",
         "options": [
             "No skills",
             "Only coding",
