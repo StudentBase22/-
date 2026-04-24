@@ -607,6 +607,7 @@ class QuizApp {
         this.score = 0;
         this.userAnswers = [];
         this.initElements();
+        this.setupEventListeners();
     }
 
     initElements() {
@@ -626,18 +627,31 @@ class QuizApp {
         this.errorMsg = document.getElementById('error-msg');
     }
 
+    setupEventListeners() {
+        if (this.accessInput) {
+            this.accessInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    this.verifyAndStart();
+                }
+            });
+        }
+    }
+
     verifyAndStart() {
-        // Poor man's obfuscation: btoa('RA10') is 'UkExMA=='
-        const secret = atob('UkExMA=='); 
-        if (this.accessInput.value.trim().toUpperCase() === secret) {
-            this.errorMsg.style.display = 'none';
+        const secret = "RA10"; 
+        const inputVal = this.accessInput ? this.accessInput.value.trim().toUpperCase() : "";
+        
+        if (inputVal === secret) {
+            if (this.errorMsg) this.errorMsg.style.display = 'none';
             this.start();
         } else {
-            this.errorMsg.style.display = 'block';
-            this.accessInput.style.borderColor = 'var(--danger)';
-            setTimeout(() => {
-                this.accessInput.style.borderColor = 'var(--glass-border)';
-            }, 1000);
+            if (this.errorMsg) this.errorMsg.style.display = 'block';
+            if (this.accessInput) {
+                this.accessInput.style.borderColor = 'var(--danger)';
+                setTimeout(() => {
+                    this.accessInput.style.borderColor = 'var(--glass-border)';
+                }, 1000);
+            }
         }
     }
 
@@ -661,10 +675,10 @@ class QuizApp {
         const q = questions[this.currentIdx];
         const progress = (this.currentIdx / questions.length) * 100;
         
-        this.progressBar.style.width = `${progress}%`;
-        this.currentNum.innerText = this.currentIdx + 1;
-        this.sectionLabel.innerText = q.section;
-        this.questionText.innerText = q.q;
+        if (this.progressBar) this.progressBar.style.width = progress + "%";
+        if (this.currentNum) this.currentNum.innerText = this.currentIdx + 1;
+        if (this.sectionLabel) this.sectionLabel.innerText = q.section;
+        if (this.questionText) this.questionText.innerText = q.q;
         
         if (/^[a-zA-Z]/.test(q.q)) {
             this.questionText.style.direction = 'ltr';
@@ -682,8 +696,8 @@ class QuizApp {
         q.options.forEach((opt, index) => {
             const btn = document.createElement('button');
             btn.className = 'option-btn fade-in';
-            btn.style.animationDelay = `${index * 0.05}s`;
-            btn.innerHTML = `<span class="label">${labels[index]}</span><span>${opt}</span>`;
+            btn.style.animationDelay = (index * 0.05) + "s";
+            btn.innerHTML = '<span class="label">' + labels[index] + '</span><span>' + opt + '</span>';
             btn.onclick = () => this.handleAnswer(index);
             this.optionsGrid.appendChild(btn);
         });
@@ -703,20 +717,21 @@ class QuizApp {
     }
 
     showResults() {
-        this.progressBar.style.width = `100%`;
+        if (this.progressBar) this.progressBar.style.width = "100%";
         this.showScreen('result');
-        this.finalScore.innerText = this.score;
+        if (this.finalScore) this.finalScore.innerText = this.score;
         
         const feedback = document.getElementById('feedback-text');
         const sub = document.getElementById('feedback-sub');
+        const percent = (this.score / questions.length) * 100;
 
         if (this.score === questions.length) {
             feedback.innerText = "أداء مثالي! مذهل";
             sub.innerText = "لقد حصلت على الدرجة النهائية، أنت خبير حقيقي.";
-        } else if (this.score >= 30) {
+        } else if (percent >= 80) {
             feedback.innerText = "أحسنت صنعاً!";
             sub.innerText = "لديك فهم ممتاز للمادة العلمية.";
-        } else if (this.score >= 20) {
+        } else if (percent >= 50) {
             feedback.innerText = "جيد جداً";
             sub.innerText = "لقد نجحت في الاختبار، استمر في المذاكرة.";
         } else {
@@ -728,26 +743,27 @@ class QuizApp {
     }
 
     renderReview() {
-        this.reviewContainer.innerHTML = '<h3 style="margin: 2rem 0 1.5rem; color: var(--primary);">مراجعة الإجابات</h3>';
-        
-        questions.forEach((q, i) => {
-            const userIdx = this.userAnswers[i];
-            const correctIdx = q.answer;
-            const isCorrect = userIdx === correctIdx;
+        if (this.reviewContainer) {
+            this.reviewContainer.innerHTML = '<h3 style="margin: 2rem 0 1.5rem; color: var(--primary);">مراجعة الإجابات</h3>';
+            
+            questions.forEach((q, i) => {
+                const userIdx = this.userAnswers[i];
+                const correctIdx = q.answer;
+                const isCorrect = userIdx === correctIdx;
 
-            const reviewItem = document.createElement('div');
-            reviewItem.className = `review-item ${isCorrect ? 'correct' : 'wrong'}`;
-            reviewItem.innerHTML = `
-                <div class="review-q">${i + 1}. ${q.q}</div>
-                <div class="review-ans">
-                    <div style="color: ${isCorrect ? 'var(--success)' : 'var(--danger)'}">
-                        إجابتك: ${q.options[userIdx]} ${isCorrect ? '✅' : '❌'}
-                    </div>
-                    ${!isCorrect ? `<div style="color: var(--success); margin-top: 4px;">الإجابة الصحيحة: ${q.options[correctIdx]}</div>` : ''}
-                </div>
-            `;
-            this.reviewContainer.appendChild(reviewItem);
-        });
+                const reviewItem = document.createElement('div');
+                reviewItem.className = "review-item " + (isCorrect ? 'correct' : 'wrong');
+                reviewItem.innerHTML = 
+                    '<div class="review-q">' + (i + 1) + '. ' + q.q + '</div>' +
+                    '<div class="review-ans">' +
+                        '<div style="color: ' + (isCorrect ? 'var(--success)' : 'var(--danger)') + '">' +
+                            'إجابتك: ' + q.options[userIdx] + ' ' + (isCorrect ? '✅' : '❌') +
+                        '</div>' +
+                        (!isCorrect ? '<div style="color: var(--success); margin-top: 4px;">الإجابة الصحيحة: ' + q.options[correctIdx] + '</div>' : '') +
+                    '</div>';
+                this.reviewContainer.appendChild(reviewItem);
+            });
+        }
     }
 
     restart() {
