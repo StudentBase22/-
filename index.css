@@ -252,6 +252,22 @@ body {
     font-size: 0.95rem;
 }
 
+.review-item.wrong p:nth-child(2) {
+    color: var(--danger);
+    font-weight: 500;
+}
+
+.review-item.correct p:nth-child(2) {
+    color: var(--success);
+    font-weight: 500;
+}
+
+.review-correct-label {
+    color: var(--success);
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+}
+
 /* Mobile & Responsive Adjustments */
 @media (max-width: 768px) {
     #app {
