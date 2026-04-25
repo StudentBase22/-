@@ -598,6 +598,395 @@ const questions = [
             "Only design"
         ],
         "answer": 2
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "What is the best definition of multimedia?",
+        "options": [
+            "Combining text and graphics only",
+            "Any combination of text, graphic art, sound, animation, and video",
+            "Using a computer for word processing",
+            "Watching television"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "What does \"Interactive Multimedia\" allow end users to do?",
+        "options": [
+            "Only watch linear presentations",
+            "Control what and when elements are delivered",
+            "Use the computer only for data storage",
+            "None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "Which of the following is NOT a core element of multimedia?",
+        "options": [
+            "Text",
+            "Sound",
+            "Operating System",
+            "Animation"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "A project that allows users to navigate through linked elements is called:",
+        "options": [
+            "Linear Multimedia",
+            "Hypermedia",
+            "Monomedia",
+            "Sequential media"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "Which of the following is a \"linear\" multimedia project?",
+        "options": [
+            "A video game",
+            "A website",
+            "A movie",
+            "Interactive CD-ROM"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Multimedia is appropriate wherever a human interacts with electronic information.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: A multimedia system does not require a computer to process information.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: The World Wide Web is an example of a hypermedia application.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Multimedia can only be used in education, not in business.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: A \"platform\" refers to the hardware and software used to develop multimedia.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "Which of the following is a type of authoring tool?",
+        "options": [
+            "Card-based",
+            "Icon-based",
+            "Time-based",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "Which tool is best for creating highly interactive, complex, or game-like applications?",
+        "options": [
+            "Microsoft Word",
+            "Macromedia Director/Adobe Animate",
+            "Adobe Photoshop",
+            "PowerPoint"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "What is a \"burner\" in multimedia?",
+        "options": [
+            "A software for creating audio",
+            "A device for reading/writing CDs and DVDs",
+            "A high-speed internet connection",
+            "A tool to edit video"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "The \"GUI\" in a multimedia project stands for:",
+        "options": [
+            "General User Interaction",
+            "Graphical User Interface",
+            "Graphic User Internet",
+            "Graphical Utility Information"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "Which tool is used for basic presentation-based multimedia?",
+        "options": [
+            "Premiere",
+            "PowerPoint",
+            "3D Studio Max",
+            "Maya"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Authoring tools are used to connect multimedia elements together.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Card-based tools are often used to create presentations that look like a book of cards.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Programming tools do not require any coding to create multimedia.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: \"Plug-ins\" are not required to view rich media on the web.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: HTML is a language used for creating hypermedia on the web.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "What is a \"pixel\"?",
+        "options": [
+            "A small picture",
+            "A single point in a graphic image",
+            "A font type",
+            "A color format"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "Which of the following is a \"lossy\" image format?",
+        "options": [
+            "GIF",
+            "JPEG",
+            "BMP",
+            "TIFF"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "If an image uses 8 bits per pixel, how many colors can it display?",
+        "options": [
+            "8",
+            "16",
+            "256 (2^8)",
+            "1024"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "Which format supports animation?",
+        "options": [
+            "JPG",
+            "BMP",
+            "GIF",
+            "TIFF"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "What is the main characteristic of Vector images?",
+        "options": [
+            "They are made of pixels",
+            "They lose quality when scaled",
+            "They are defined by mathematical formulas",
+            "They are only used for photography"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Bitmap images are composed of a grid of pixels.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Vector images are generally larger in file size than bitmaps.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: GIF images support more colors than JPEG images.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Resolution is the number of pixels per inch.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Lossless compression reduces file size without losing any image data.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "What does MIDI stand for?",
+        "options": [
+            "Multimedia Interactive Digital Interface",
+            "Musical Instrument Digital Interface",
+            "Modern Instrument Data Interchange",
+            "Musical Information Digital Interchange"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "Which of the following is an uncompressed audio format?",
+        "options": [
+            "MP3",
+            "AAC",
+            "WAV",
+            "WMA"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "According to Nyquist Theorem, the sampling rate must be:",
+        "options": [
+            "Less than the maximum frequency",
+            "Equal to the minimum frequency",
+            "At least twice the highest frequency",
+            "None of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "Which audio format is best for low bandwidth/small file sizes?",
+        "options": [
+            "WAV",
+            "MP3",
+            "AIFF",
+            "AU"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: MIDI files contain actual recorded sound waves.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Increasing the sampling rate improves audio quality but increases file size.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Sound is a type of continuous media.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: 16-bit audio provides lower dynamic range than 8-bit audio.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Previous years' questions",
+        "q": "T/F: Digitization is the process of converting analog sound to digital data.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 0
     }
 ];
 
