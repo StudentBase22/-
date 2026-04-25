@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
     --primary: #6366f1;
     --primary-hover: #4f46e5;
@@ -64,6 +66,7 @@ body {
 .header h1 {
     font-size: 2.2rem;
     background: linear-gradient(to left, #818cf8, #c084fc);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0.5rem;
@@ -301,7 +304,7 @@ body {
     }
 
     .topics-grid {
-        grid-template-columns: 1fr !important; /* Stack topics on mobile */
+        grid-template-columns: 1fr;
     }
 }
 
