@@ -1,298 +1,351 @@
 const questions = [
+    // --- SECTION 1: TRUE / FALSE (35 Questions) ---
     {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Multimedia combines text, audio, video, and animation.",
+        "section": "True / False - Chapter 0",
+        "q": "Multimedia consists of text, graphics, sound, animation, and video.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "HTTP was originally designed to transmit hypermedia.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "URI identifies a resource on the web.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "HTML is defined using SGML.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "HTML uses binary format only.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "XML allows defining custom tags.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "Interactive multimedia allows user control over content delivery.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "Linear multimedia allows users to control navigation freely.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "Non-linear multimedia allows users to enter and exit at any point.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "CD-ROM can store up to 80 minutes of multimedia content.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "DVD can store up to 18 GB of data.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 0",
+        "q": "Virtual Reality uses multimedia elements like sound and animation.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 1",
+        "q": "Multimedia is the integration of multiple media types digitally.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 1",
+        "q": "Multimedia includes audio, video, and animation.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 1",
+        "q": "Hypertext is clickable linked text.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 1",
+        "q": "Multimedia cannot be stored digitally.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "section": "True / False - Chapter 1",
+        "q": "Multimedia is used to represent and transmit information.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 2",
+        "q": "Multimedia systems require hardware and software.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 2",
+        "q": "Capture devices include cameras and microphones.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 2",
+        "q": "Storage devices include hard disks and DVDs.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 2",
+        "q": "Communication networks include the internet and intranet.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 2",
+        "q": "Display devices include speakers and monitors.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 3",
+        "q": "Multimedia development starts with planning.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 3",
+        "q": "A prototype is a simple version of the project.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 3",
+        "q": "Testing ensures the project meets user needs.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 3",
+        "q": "Delivery includes packaging and distribution.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 3",
+        "q": "Multimedia projects require organization and planning.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 3",
+        "q": "Creativity alone is enough to create multimedia.",
+        "options": ["True", "False"],
+        "answer": 1
+    },
+    {
+        "section": "True / False - Chapter 3",
+        "q": "Multimedia requires hardware and software knowledge.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 4",
+        "q": "Project Manager maintains the overall vision of the project.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 4",
+        "q": "Project Manager is responsible for day-to-day operations and budget.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 4",
+        "q": "Multimedia Designer prepares the blueprint of the project.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 4",
+        "q": "Multimedia Designer defines content, media, and interaction.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 4",
+        "q": "Interface Designer makes the interface easy to use.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+    {
+        "section": "True / False - Chapter 4",
+        "q": "Audio Specialist works with MIDI and sound recording.",
+        "options": ["True", "False"],
+        "answer": 0
+    },
+
+    // --- SECTION 2: MULTIPLE CHOICE (35 Questions) ---
+    {
+        "section": "Multiple Choice - Chapter 0",
+        "q": "What does HTTP stand for?",
         "options": [
-            "True",
-            "False"
+            "HyperText Transfer Protocol",
+            "HighText Transfer Program",
+            "Hyper Tool Protocol",
+            "Hyper Transfer Text Program"
         ],
         "answer": 0
     },
     {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Multimedia only refers to video content.",
+        "section": "Multiple Choice - Chapter 0",
+        "q": "URI is used to:",
         "options": [
-            "True",
-            "False"
+            "Store files",
+            "Identify resources",
+            "Play audio",
+            "Compress data"
         ],
         "answer": 1
     },
     {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Media means the method of communication.",
+        "section": "Multiple Choice - Chapter 0",
+        "q": "HTML is defined using:",
         "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Vannevar Bush proposed early multimedia ideas in 1945.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Hypertext allows linking between documents.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Multimedia is only used in entertainment.",
-        "options": [
-            "True",
-            "False"
+            "XML",
+            "SGML",
+            "HTTP",
+            "ASCII"
         ],
         "answer": 1
     },
     {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Sight and hearing are important in multimedia.",
+        "section": "Multiple Choice - Chapter 0",
+        "q": "XML allows:",
         "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Multimedia systems include hardware and software.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Microphones are output devices.",
-        "options": [
-            "True",
-            "False"
+            "Fixed tags only",
+            "Custom tags",
+            "No structure",
+            "Only images"
         ],
         "answer": 1
     },
     {
-        "section": "Section 2: Systems & Communication",
-        "q": "Hard disks are storage devices.",
+        "section": "Multiple Choice - Chapter 0",
+        "q": "Interactive multimedia means:",
         "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Graphics are made of primitive shapes.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Images are always smaller than graphics in size.",
-        "options": [
-            "True",
-            "False"
+            "No user control",
+            "User controls content",
+            "Only video",
+            "Only text"
         ],
         "answer": 1
     },
     {
-        "section": "Section 2: Systems & Communication",
-        "q": "Audio signals are originally analog.",
+        "section": "Multiple Choice - Chapter 0",
+        "q": "Linear multimedia:",
         "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Video is a sequence of frames.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Compression is not needed in multimedia.",
-        "options": [
-            "True",
-            "False"
+            "User chooses freely",
+            "Fixed sequence",
+            "No structure",
+            "Random"
         ],
         "answer": 1
     },
     {
-        "section": "Section 2: Systems & Communication",
-        "q": "Static media is time-dependent.",
+        "section": "Multiple Choice - Chapter 0",
+        "q": "Non-linear multimedia:",
         "options": [
-            "True",
-            "False"
+            "Fixed order",
+            "User navigation",
+            "No interaction",
+            "Only slides"
         ],
         "answer": 1
     },
     {
-        "section": "Section 2: Systems & Communication",
-        "q": "Continuous media is time-dependent.",
+        "section": "Multiple Choice - Chapter 0",
+        "q": "CD-ROM capacity is about:",
         "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Authoring tools are used to create multimedia applications.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Timeline-based tools organize data by time.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Icon-based tools use visual symbols.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Navigation is not important in multimedia.",
-        "options": [
-            "True",
-            "False"
+            "10 GB",
+            "80 minutes",
+            "1 TB",
+            "500 MB"
         ],
         "answer": 1
     },
     {
-        "section": "Section 3: Authoring & Design",
-        "q": "Interactivity allows user control.",
+        "section": "Multiple Choice - Chapter 0",
+        "q": "DVD capacity is about:",
         "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Storyboards are used for planning.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Linear navigation allows free user choice.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Multimedia Designer defines content and structure.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Interface Designer may overlap with Multimedia Designer.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Audio Specialist works with MIDI and sound.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Project Manager handles audio recording directly.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Adaptive systems change based on user input.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Interpersonal skills are important in multimedia teams.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Multimedia is best defined as:",
-        "options": [
-            "Text only",
-            "Video only",
-            "Integration of multiple media",
-            "Audio only"
+            "1 GB",
+            "5 MB",
+            "18 GB",
+            "100 MB"
         ],
         "answer": 2
     },
     {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Who proposed the memex idea?",
+        "section": "Multiple Choice - Chapter 0",
+        "q": "Virtual Reality is:",
         "options": [
-            "Bill Gates",
-            "Vannevar Bush",
-            "Steve Jobs",
-            "Elon Musk"
+            "Separate from multimedia",
+            "Extension of multimedia",
+            "Only text",
+            "Only audio"
         ],
         "answer": 1
     },
     {
-        "section": "Section 1: Introduction to Multimedia",
+        "section": "Multiple Choice - Chapter 1",
+        "q": "Multimedia means:",
+        "options": [
+            "One media",
+            "Multiple media",
+            "Only video",
+            "Only text"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Multiple Choice - Chapter 1",
+        "q": "Multimedia includes:",
+        "options": [
+            "Text",
+            "Audio",
+            "Video",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Multiple Choice - Chapter 1",
         "q": "Hypertext is:",
         "options": [
             "Audio",
@@ -303,29 +356,18 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Multimedia is used in:",
+        "section": "Multiple Choice - Chapter 1",
+        "q": "Multimedia is used to:",
         "options": [
-            "Education",
-            "Healthcare",
-            "Entertainment",
+            "Store information",
+            "Transmit information",
+            "Process information",
             "All of the above"
         ],
         "answer": 3
     },
     {
-        "section": "Section 1: Introduction to Multimedia",
-        "q": "Which is part of multimedia?",
-        "options": [
-            "Audio",
-            "Video",
-            "Text",
-            "All of the above"
-        ],
-        "answer": 3
-    },
-    {
-        "section": "Section 2: Systems & Communication",
+        "section": "Multiple Choice - Chapter 2",
         "q": "Which is a capture device?",
         "options": [
             "Monitor",
@@ -336,824 +378,354 @@ const questions = [
         "answer": 1
     },
     {
-        "section": "Section 2: Systems & Communication",
+        "section": "Multiple Choice - Chapter 2",
         "q": "Which is a storage device?",
         "options": [
             "Keyboard",
             "Hard disk",
             "Mouse",
-            "Microphone"
+            "Scanner"
         ],
         "answer": 1
     },
     {
-        "section": "Section 2: Systems & Communication",
-        "q": "Graphics are built using:",
+        "section": "Multiple Choice - Chapter 2",
+        "q": "Which is a communication network?",
         "options": [
-            "Pixels only",
-            "Shapes (lines, circles)",
-            "Audio",
-            "Frames"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Images are usually obtained from:",
-        "options": [
-            "Scanner/camera",
-            "Keyboard",
+            "Internet",
             "Speaker",
+            "Camera",
             "Printer"
         ],
         "answer": 0
     },
     {
-        "section": "Section 2: Systems & Communication",
-        "q": "CD-quality audio uses:",
+        "section": "Multiple Choice - Chapter 2",
+        "q": "Which is a display device?",
         "options": [
-            "8-bit",
-            "16-bit, 44.1 KHz",
-            "32-bit",
-            "1-bit"
+            "Microphone",
+            "Monitor",
+            "Scanner",
+            "Keyboard"
         ],
         "answer": 1
     },
     {
-        "section": "Section 2: Systems & Communication",
-        "q": "Video consists of:",
+        "section": "Multiple Choice - Chapter 3",
+        "q": "First stage of multimedia project:",
         "options": [
+            "Testing",
+            "Planning",
+            "Delivery",
+            "Editing"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Multiple Choice - Chapter 3",
+        "q": "A prototype is:",
+        "options": [
+            "Final product",
+            "Simple model",
+            "Deleted file",
+            "Backup"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Multiple Choice - Chapter 3",
+        "q": "Testing ensures:",
+        "options": [
+            "Errors remain",
+            "Requirements are met",
+            "Faster internet",
+            "Storage"
+        ],
+        "answer": 1
+    },
+    {
+        "section": "Multiple Choice - Chapter 3",
+        "q": "Delivering includes:",
+        "options": [
+            "Packaging",
+            "Distribution",
+            "User manual",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Multiple Choice - Chapter 3",
+        "q": "Multimedia requires:",
+        "options": [
+            "Hardware",
+            "Software",
+            "Creativity",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Project Manager is responsible for:",
+        "options": [
+            "Coding",
+            "Budget & team",
             "Audio",
-            "Frames",
-            "Text",
-            "Graphics"
+            "Drawing"
         ],
         "answer": 1
     },
     {
-        "section": "Section 2: Systems & Communication",
-        "q": "Static media includes:",
-        "options": [
-            "Video",
-            "Audio",
-            "Text/images",
-            "Animation"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Continuous media includes:",
-        "options": [
-            "Text",
-            "Images",
-            "Audio/video",
-            "Graphics"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Analog signals are:",
-        "options": [
-            "Discrete",
-            "Continuous",
-            "Digital",
-            "Static"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 2: Systems & Communication",
-        "q": "Streaming means:",
-        "options": [
-            "Download then play",
-            "Play while downloading",
-            "Delete files",
-            "Compress data"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Authoring tools are used to:",
-        "options": [
-            "Store data",
-            "Create multimedia",
-            "Delete files",
-            "Compress media"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Timeline-based tools organize by:",
-        "options": [
-            "Size",
-            "Time",
-            "Color",
-            "Format"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Icon-based tools use:",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Multimedia Designer prepares:",
         "options": [
             "Code",
-            "Icons",
+            "Blueprint",
             "Audio",
             "Video"
         ],
         "answer": 1
     },
     {
-        "section": "Section 3: Authoring & Design",
-        "q": "Linear navigation means:",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Interface Designer focuses on:",
         "options": [
-            "Free movement",
-            "Fixed sequence",
-            "No movement",
-            "Random"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Non-linear navigation allows:",
-        "options": [
-            "Fixed path",
-            "User choice",
-            "No interaction",
-            "Only text"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Storyboards are used for:",
-        "options": [
-            "Coding",
-            "Planning",
-            "Testing",
-            "Storage"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 3: Authoring & Design",
-        "q": "Interactivity means:",
-        "options": [
-            "No control",
-            "User control",
-            "Only viewing",
-            "Only listening"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Who prepares the project blueprint?",
-        "options": [
-            "Writer",
-            "Multimedia Designer",
-            "Audio Specialist",
-            "Actor"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Who handles sound and MIDI?",
-        "options": [
-            "Video Specialist",
-            "Audio Specialist",
-            "Designer",
-            "Manager"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Who coordinates video production team?",
-        "options": [
-            "Audio Specialist",
-            "Video Specialist",
-            "Interface Designer",
-            "Writer"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Adaptive systems:",
-        "options": [
-            "Stay fixed",
-            "Change with user input",
-            "Only display text",
-            "Store data"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Multimedia Producer for web needs:",
-        "options": [
-            "HTML knowledge",
-            "Drawing skills",
-            "Audio skills",
-            "Acting"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Section 4: Project Roles",
-        "q": "Information Designers focus on:",
-        "options": [
-            "Hardware",
-            "User pathways",
+            "User interaction",
+            "Storage",
             "Audio",
             "Coding"
         ],
-        "answer": 1
+        "answer": 0
     },
     {
-        "section": "Section 4: Project Roles",
-        "q": "Fully interactive systems require:",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Writers are responsible for:",
         "options": [
-            "Budget only",
-            "User interaction understanding",
-            "Faster internet",
-            "Less content"
+            "Coding",
+            "Scripts and text",
+            "Audio",
+            "Hardware"
         ],
         "answer": 1
     },
     {
-        "section": "Section 4: Project Roles",
-        "q": "Multimedia team members need:",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Video Specialist coordinates:",
         "options": [
-            "No skills",
-            "Only coding",
-            "Organizational & interpersonal skills",
-            "Only design"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "What is the best definition of multimedia?",
-        "options": [
-            "Combining text and graphics only",
-            "Any combination of text, graphic art, sound, animation, and video",
-            "Using a computer for word processing",
-            "Watching television"
+            "Programmers",
+            "Video team",
+            "Designers",
+            "Users"
         ],
         "answer": 1
     },
     {
-        "section": "Previous years' questions",
-        "q": "What does \"Interactive Multimedia\" allow end users to do?",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Audio Specialist handles:",
         "options": [
-            "Only watch linear presentations",
-            "Control what and when elements are delivered",
-            "Use the computer only for data storage",
-            "None of the above"
+            "Video",
+            "Sound recording",
+            "Coding",
+            "Design"
         ],
         "answer": 1
     },
     {
-        "section": "Previous years' questions",
-        "q": "Which of the following is NOT a core element of multimedia?",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Multimedia Programmer uses:",
         "options": [
-            "Text",
-            "Sound",
-            "Operating System",
-            "Animation"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "A project that allows users to navigate through linked elements is called:",
-        "options": [
-            "Linear Multimedia",
-            "Hypermedia",
-            "Monomedia",
-            "Sequential media"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "Which of the following is a \"linear\" multimedia project?",
-        "options": [
-            "A video game",
-            "A website",
-            "A movie",
-            "Interactive CD-ROM"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Multimedia is appropriate wherever a human interacts with electronic information.",
-        "options": [
-            "True",
-            "False"
+            "Programming languages",
+            "Audio tools",
+            "Cameras",
+            "Printers"
         ],
         "answer": 0
     },
     {
-        "section": "Previous years' questions",
-        "q": "T/F: A multimedia system does not require a computer to process information.",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Web Multimedia Producer needs:",
         "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: The World Wide Web is an example of a hypermedia application.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Multimedia can only be used in education, not in business.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: A \"platform\" refers to the hardware and software used to develop multimedia.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "Which of the following is a type of authoring tool?",
-        "options": [
-            "Card-based",
-            "Icon-based",
-            "Time-based",
+            "HTML",
+            "CGI",
+            "Photoshop",
             "All of the above"
         ],
         "answer": 3
     },
     {
-        "section": "Previous years' questions",
-        "q": "Which tool is best for creating highly interactive, complex, or game-like applications?",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Information Designers:",
         "options": [
-            "Microsoft Word",
-            "Macromedia Director/Adobe Animate",
-            "Adobe Photoshop",
-            "PowerPoint"
+            "Code programs",
+            "Structure content & navigation",
+            "Record audio",
+            "Manage budget"
         ],
         "answer": 1
     },
     {
-        "section": "Previous years' questions",
-        "q": "What is a \"burner\" in multimedia?",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Instructional Designers focus on:",
         "options": [
-            "A software for creating audio",
-            "A device for reading/writing CDs and DVDs",
-            "A high-speed internet connection",
-            "A tool to edit video"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "The \"GUI\" in a multimedia project stands for:",
-        "options": [
-            "General User Interaction",
-            "Graphical User Interface",
-            "Graphic User Internet",
-            "Graphical Utility Information"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "Which tool is used for basic presentation-based multimedia?",
-        "options": [
-            "Premiere",
-            "PowerPoint",
-            "3D Studio Max",
-            "Maya"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Authoring tools are used to connect multimedia elements together.",
-        "options": [
-            "True",
-            "False"
+            "Content clarity",
+            "Audio",
+            "Video",
+            "Hardware"
         ],
         "answer": 0
     },
     {
-        "section": "Previous years' questions",
-        "q": "T/F: Card-based tools are often used to create presentations that look like a book of cards.",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Audio Specialist skill includes:",
         "options": [
-            "True",
-            "False"
+            "MIDI",
+            "HTML",
+            "Drawing",
+            "Networking"
         ],
         "answer": 0
     },
     {
-        "section": "Previous years' questions",
-        "q": "T/F: Programming tools do not require any coding to create multimedia.",
+        "section": "Multiple Choice - Chapter 4",
+        "q": "Multimedia teams require:",
         "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: \"Plug-ins\" are not required to view rich media on the web.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: HTML is a language used for creating hypermedia on the web.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "What is a \"pixel\"?",
-        "options": [
-            "A small picture",
-            "A single point in a graphic image",
-            "A font type",
-            "A color format"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "Which of the following is a \"lossy\" image format?",
-        "options": [
-            "GIF",
-            "JPEG",
-            "BMP",
-            "TIFF"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "If an image uses 8 bits per pixel, how many colors can it display?",
-        "options": [
-            "8",
-            "16",
-            "256 (2^8)",
-            "1024"
+            "No skills",
+            "Only coding",
+            "Communication & organization",
+            "Only design"
         ],
         "answer": 2
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "Which format supports animation?",
-        "options": [
-            "JPG",
-            "BMP",
-            "GIF",
-            "TIFF"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "What is the main characteristic of Vector images?",
-        "options": [
-            "They are made of pixels",
-            "They lose quality when scaled",
-            "They are defined by mathematical formulas",
-            "They are only used for photography"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Bitmap images are composed of a grid of pixels.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Vector images are generally larger in file size than bitmaps.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: GIF images support more colors than JPEG images.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Resolution is the number of pixels per inch.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Lossless compression reduces file size without losing any image data.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "What does MIDI stand for?",
-        "options": [
-            "Multimedia Interactive Digital Interface",
-            "Musical Instrument Digital Interface",
-            "Modern Instrument Data Interchange",
-            "Musical Information Digital Interchange"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "Which of the following is an uncompressed audio format?",
-        "options": [
-            "MP3",
-            "AAC",
-            "WAV",
-            "WMA"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "According to Nyquist Theorem, the sampling rate must be:",
-        "options": [
-            "Less than the maximum frequency",
-            "Equal to the minimum frequency",
-            "At least twice the highest frequency",
-            "None of the above"
-        ],
-        "answer": 2
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "Which audio format is best for low bandwidth/small file sizes?",
-        "options": [
-            "WAV",
-            "MP3",
-            "AIFF",
-            "AU"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: MIDI files contain actual recorded sound waves.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Increasing the sampling rate improves audio quality but increases file size.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Sound is a type of continuous media.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: 16-bit audio provides lower dynamic range than 8-bit audio.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 1
-    },
-    {
-        "section": "Previous years' questions",
-        "q": "T/F: Digitization is the process of converting analog sound to digital data.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": 0
     }
 ];
 
-class QuizApp {
+class Quiz {
     constructor() {
-        this.currentIdx = 0;
+        this.currentQuestionIndex = 0;
         this.score = 0;
         this.userAnswers = [];
-        this.initElements();
-        this.setupEventListeners();
-    }
-
-    initElements() {
-        this.screens = {
-            start: document.getElementById('start-screen'),
-            quiz: document.getElementById('quiz-screen'),
-            result: document.getElementById('result-screen')
-        };
-        this.questionText = document.getElementById('question-text');
-        this.optionsGrid = document.getElementById('options-grid');
-        this.progressBar = document.getElementById('progress-bar');
-        this.currentNum = document.getElementById('current-num');
-        this.sectionLabel = document.getElementById('section-label');
-        this.finalScore = document.getElementById('final-score');
-        this.reviewContainer = document.getElementById('review-container');
-        this.accessInput = document.getElementById('access-code');
-        this.errorMsg = document.getElementById('error-msg');
-    }
-
-    setupEventListeners() {
-        if (this.accessInput) {
-            // Using keydown instead of keypress for better cross-browser compatibility
-            this.accessInput.addEventListener('keydown', (e) => {
-                if (e.key === 'Enter') {
-                    this.verifyAndStart();
-                }
-            });
-        }
+        this.shuffledQuestions = [];
+        this.isVerifying = false;
     }
 
     verifyAndStart() {
-        const secret = "RA10"; 
-        const inputVal = this.accessInput ? this.accessInput.value.trim().toUpperCase() : "";
-        
-        if (inputVal === secret) {
-            if (this.errorMsg) this.errorMsg.style.display = 'none';
+        const code = document.getElementById('access-code').value.trim();
+        // Obfuscated check for RA10 to keep it hidden from simple text searches
+        if (btoa(code) === "UkExMA==") {
             this.start();
+            document.getElementById('error-msg').style.display = 'none';
         } else {
-            if (this.errorMsg) this.errorMsg.style.display = 'block';
-            if (this.accessInput) {
-                this.accessInput.style.borderColor = 'var(--danger)';
-                setTimeout(() => {
-                    this.accessInput.style.borderColor = 'var(--glass-border)';
-                }, 1000);
-            }
+            document.getElementById('error-msg').style.display = 'block';
+            document.getElementById('access-code').value = '';
         }
     }
 
     start() {
-        this.currentIdx = 0;
+        this.shuffledQuestions = [...questions]; // Keep order as requested for study
+        this.currentQuestionIndex = 0;
         this.score = 0;
         this.userAnswers = [];
-        this.showScreen('quiz');
-        this.renderQuestion();
+        
+        document.getElementById('start-screen').style.display = 'none';
+        document.getElementById('result-screen').style.display = 'none';
+        document.getElementById('quiz-screen').style.display = 'block';
+        
+        this.showQuestion();
     }
 
-    showScreen(key) {
-        Object.keys(this.screens).forEach(k => {
-            if (this.screens[k]) {
-                this.screens[k].style.display = k === key ? 'block' : 'none';
-            }
+    showQuestion() {
+        const question = this.shuffledQuestions[this.currentQuestionIndex];
+        const progress = ((this.currentQuestionIndex) / this.shuffledQuestions.length) * 100;
+        
+        document.getElementById('progress-bar').style.width = `${progress}%`;
+        document.getElementById('section-label').textContent = question.section;
+        document.getElementById('question-text').textContent = question.q;
+        document.getElementById('current-num').textContent = this.currentQuestionIndex + 1;
+        
+        const optionsGrid = document.getElementById('options-grid');
+        optionsGrid.innerHTML = '';
+        
+        question.options.forEach((option, index) => {
+            const button = document.createElement('button');
+            button.className = 'option-btn fade-in';
+            button.textContent = option;
+            button.onclick = () => this.handleAnswer(index);
+            optionsGrid.appendChild(button);
         });
     }
 
-    renderQuestion() {
-        const q = questions[this.currentIdx];
-        const progress = (this.currentIdx / questions.length) * 100;
-        
-        if (this.progressBar) this.progressBar.style.width = progress + "%";
-        if (this.currentNum) this.currentNum.innerText = this.currentIdx + 1;
-        if (this.sectionLabel) this.sectionLabel.innerText = q.section;
-        if (this.questionText) this.questionText.innerText = q.q;
-        
-
-        
-        this.optionsGrid.innerHTML = '';
-        const labels = ['A', 'B', 'C', 'D'];
-        
-        q.options.forEach((opt, index) => {
-            const btn = document.createElement('button');
-            btn.className = 'option-btn fade-in';
-            btn.style.animationDelay = (index * 0.05) + "s";
-            btn.innerHTML = '<span class="label">' + labels[index] + '</span><span>' + opt + '</span>';
-            btn.onclick = () => this.handleAnswer(index);
-            this.optionsGrid.appendChild(btn);
+    handleAnswer(index) {
+        const question = this.shuffledQuestions[this.currentQuestionIndex];
+        this.userAnswers.push({
+            question: question.q,
+            selected: index,
+            correct: question.answer,
+            options: question.options
         });
-    }
 
-    handleAnswer(selectedIdx) {
-        this.userAnswers.push(selectedIdx);
-        if (selectedIdx === questions[this.currentIdx].answer) {
+        if (index === question.answer) {
             this.score++;
         }
-        this.currentIdx++;
-        if (this.currentIdx < questions.length) {
-            this.renderQuestion();
+
+        this.currentQuestionIndex++;
+
+        if (this.currentQuestionIndex < this.shuffledQuestions.length) {
+            this.showQuestion();
         } else {
             this.showResults();
         }
     }
 
     showResults() {
-        if (this.progressBar) this.progressBar.style.width = "100%";
-        this.showScreen('result');
-        if (this.finalScore) this.finalScore.innerText = this.score;
+        document.getElementById('quiz-screen').style.display = 'none';
+        document.getElementById('result-screen').style.display = 'block';
         
-        const feedback = document.getElementById('feedback-text');
-        const sub = document.getElementById('feedback-sub');
-        const percent = (this.score / questions.length) * 100;
+        const finalScore = document.getElementById('final-score');
+        finalScore.textContent = this.score;
+        
+        const feedbackText = document.getElementById('feedback-text');
+        const feedbackSub = document.getElementById('feedback-sub');
+        const percentage = (this.score / this.shuffledQuestions.length) * 100;
 
-        if (this.score === questions.length) {
-            feedback.innerText = "Perfect performance! Amazing";
-            sub.innerText = "You got a perfect score, you are a true expert.";
-        } else if (percent >= 80) {
-            feedback.innerText = "Well done!";
-            sub.innerText = "You have an excellent understanding of the material.";
-        } else if (percent >= 50) {
-            feedback.innerText = "Very good";
-            sub.innerText = "You passed the exam, keep studying.";
+        if (percentage === 100) {
+            feedbackText.textContent = "Perfect Score!";
+            feedbackSub.textContent = "You have mastered all the important slides!";
+        } else if (percentage >= 80) {
+            feedbackText.textContent = "Excellent Work!";
+            feedbackSub.textContent = "You are well prepared for the exam.";
+        } else if (percentage >= 50) {
+            feedbackText.textContent = "Good Effort!";
+            feedbackSub.textContent = "A bit more review and you'll be ready.";
         } else {
-            feedback.innerText = "Try again";
-            sub.innerText = "You need to review the basic concepts to improve your score.";
+            feedbackText.textContent = "Keep Studying!";
+            feedbackSub.textContent = "Review the slides and try again.";
         }
 
-        this.renderReview();
+        this.showReview();
     }
 
-    renderReview() {
-        if (this.reviewContainer) {
-            this.reviewContainer.innerHTML = '<h3 style="margin: 2rem 0 1.5rem; color: var(--primary);">Review Answers</h3>';
+    showReview() {
+        const container = document.getElementById('review-container');
+        container.innerHTML = '<h3>Review Your Answers</h3>';
+        
+        this.userAnswers.forEach((ans, i) => {
+            const item = document.createElement('div');
+            item.className = `review-item ${ans.selected === ans.correct ? 'correct' : 'wrong'}`;
             
-            questions.forEach((q, i) => {
-                const userIdx = this.userAnswers[i];
-                const correctIdx = q.answer;
-                const isCorrect = userIdx === correctIdx;
-
-                const reviewItem = document.createElement('div');
-                reviewItem.className = "review-item " + (isCorrect ? 'correct' : 'wrong');
-                reviewItem.innerHTML = 
-                    '<div class="review-q">' + (i + 1) + '. ' + q.q + '</div>' +
-                    '<div class="review-ans">' +
-                        '<div style="color: ' + (isCorrect ? 'var(--success)' : 'var(--danger)') + '">' +
-                            'Your answer: ' + q.options[userIdx] + ' ' + (isCorrect ? '(Correct)' : '(Wrong)') +
-                        '</div>' +
-                        (!isCorrect ? '<div style="color: var(--success); margin-top: 4px;">Correct answer: ' + q.options[correctIdx] + '</div>' : '') +
-                    '</div>';
-                this.reviewContainer.appendChild(reviewItem);
-            });
-        }
+            item.innerHTML = `
+                <p><strong>Q${i + 1}: ${ans.question}</strong></p>
+                <p>Your answer: ${ans.options[ans.selected]}</p>
+                ${ans.selected !== ans.correct ? `<p style="color: #4ade80">Correct answer: ${ans.options[ans.correct]}</p>` : ''}
+            `;
+            container.appendChild(item);
+        });
     }
 
     restart() {
-        this.start();
+        document.getElementById('result-screen').style.display = 'none';
+        document.getElementById('start-screen').style.display = 'block';
+        document.getElementById('access-code').value = '';
     }
 }
 
-// Ensure the DOM is fully loaded before initializing
-document.addEventListener('DOMContentLoaded', () => {
-    window.quiz = new QuizApp();
-});
+const quiz = new Quiz();
