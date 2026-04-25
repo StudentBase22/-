@@ -253,20 +253,40 @@ body {
     font-size: 0.95rem;
 }
 
-.review-item.wrong p:nth-child(2) {
-    color: var(--danger);
-    font-weight: 500;
+.review-item.wrong .review-ans {
+    color: #ff4d4d;
+    font-weight: 600;
 }
 
-.review-item.correct p:nth-child(2) {
-    color: var(--success);
-    font-weight: 500;
+.review-item.correct .review-ans {
+    color: #4ade80;
+    font-weight: 600;
+}
+
+.review-badge {
+    font-size: 0.8rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    text-transform: uppercase;
+}
+
+.review-item.correct .review-badge {
+    background: rgba(74, 222, 128, 0.1);
+    color: #4ade80;
+}
+
+.review-item.wrong .review-badge {
+    background: rgba(255, 77, 77, 0.1);
+    color: #ff4d4d;
 }
 
 .review-correct-label {
-    color: var(--success);
+    color: #4ade80;
     font-size: 0.95rem;
-    margin-top: 0.25rem;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid #4ade80;
 }
 
 /* Mobile & Responsive Adjustments */

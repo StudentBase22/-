@@ -713,16 +713,20 @@ class Quiz {
 
     showReview() {
         const container = document.getElementById('review-container');
-        container.innerHTML = '<h3 style="margin-bottom: 1.5rem; color: var(--primary)">Review Your Answers</h3>';
+        container.innerHTML = '<h3 style="margin-bottom: 1.5rem; color: var(--primary); text-align: center;">Exam Review</h3>';
         
         this.userAnswers.forEach((ans, i) => {
+            const isCorrect = ans.selected === ans.correct;
             const item = document.createElement('div');
-            item.className = `review-item ${ans.selected === ans.correct ? 'correct' : 'wrong'}`;
+            item.className = `review-item ${isCorrect ? 'correct' : 'wrong'}`;
             
             item.innerHTML = `
                 <p class="review-q"><strong>Q${i + 1}: ${ans.question}</strong></p>
-                <p class="review-ans">Your answer: ${ans.options[ans.selected]}</p>
-                ${ans.selected !== ans.correct ? `<p class="review-correct-label">Correct answer: ${ans.options[ans.correct]}</p>` : ''}
+                <p class="review-ans">
+                    Your answer: ${ans.options[ans.selected]}
+                    <span class="review-badge">${isCorrect ? '✅ Correct' : '❌ Incorrect'}</span>
+                </p>
+                ${!isCorrect ? `<p class="review-correct-label">Correct answer: ${ans.options[ans.correct]}</p>` : ''}
             `;
             container.appendChild(item);
         });
