@@ -606,6 +606,13 @@ class Quiz {
         this.userAnswers = [];
         this.shuffledQuestions = [];
         this.isVerifying = false;
+
+        // Add Enter key support for access code
+        document.getElementById('access-code').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                this.verifyAndStart();
+            }
+        });
     }
 
     verifyAndStart() {
